@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D00334721AF3E890015D3DE /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00334621AF3E890015D3DE /* PopOverViewController.swift */; };
+		4D31CD59221A11FE0043283A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D31CD58221A11FE0043283A /* GoogleService-Info.plist */; };
+		4D3983A32219773D003BAC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3983A22219773C003BAC4A /* Main.storyboard */; };
+		4D3983A522197FF2003BAC4A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3983A422197FF2003BAC4A /* Launch Screen.storyboard */; };
+		4D88FEF02219738200B229DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEEF2219738200B229DA /* ViewController.swift */; };
+		4D88FEF22219739000B229DA /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEF12219739000B229DA /* PopupViewController.swift */; };
+		4D88FEF6221973AF00B229DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88FEF5221973AF00B229DA /* Assets.xcassets */; };
+		4D88FEFA221973E600B229DA /* ChangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEF9221973E600B229DA /* ChangeModel.swift */; };
+		4D88FEFC221973F300B229DA /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEFB221973F300B229DA /* CoinModel.swift */; };
+		4D88FEFE221973FF00B229DA /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEFD221973FF00B229DA /* CurrencyModel.swift */; };
+		4D88FF002219740C00B229DA /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEFF2219740C00B229DA /* CurrencyTableViewCell.swift */; };
+		4D88FF022219744400B229DA /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FF012219744400B229DA /* CoinTableViewCell.swift */; };
+		4D88FF042219745300B229DA /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FF032219745300B229DA /* DetailTableViewController.swift */; };
+		4D88FF06221974D200B229DA /* SBCardPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FF05221974D200B229DA /* SBCardPopupViewController.swift */; };
 		4D8B57FC21961A440012276B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B57FB21961A440012276B /* AppDelegate.swift */; };
-		4D8B57FE21961A440012276B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B57FD21961A440012276B /* ViewController.swift */; };
-		4D8B580121961A440012276B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B57FF21961A440012276B /* Main.storyboard */; };
-		4D8B580321961A460012276B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B580221961A460012276B /* Assets.xcassets */; };
-		4D8B580621961A460012276B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B580421961A460012276B /* LaunchScreen.storyboard */; };
+		7D877B3023FE47F772D46974 /* Pods_Kripto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E86EEA2D5025C0EC55FCE6A /* Pods_Kripto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E86EEA2D5025C0EC55FCE6A /* Pods_Kripto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kripto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362BECD2265A686224D42BA6 /* Pods-Kripto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kripto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kripto/Pods-Kripto.release.xcconfig"; sourceTree = "<group>"; };
+		4D00334621AF3E890015D3DE /* PopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		4D31CD58221A11FE0043283A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D3983A22219773C003BAC4A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D3983A422197FF2003BAC4A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4D88FEEF2219738200B229DA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D88FEF12219739000B229DA /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		4D88FEF5221973AF00B229DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D88FEF7221973BB00B229DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D88FEF9221973E600B229DA /* ChangeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeModel.swift; sourceTree = "<group>"; };
+		4D88FEFB221973F300B229DA /* CoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		4D88FEFD221973FF00B229DA /* CurrencyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		4D88FEFF2219740C00B229DA /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		4D88FF012219744400B229DA /* CoinTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		4D88FF032219745300B229DA /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		4D88FF05221974D200B229DA /* SBCardPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCardPopupViewController.swift; sourceTree = "<group>"; };
 		4D8B57F821961A440012276B /* Kripto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kripto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8B57FB21961A440012276B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D8B57FD21961A440012276B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D8B580021961A440012276B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D8B580221961A460012276B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D8B580521961A460012276B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4D8B580721961A460012276B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1BE7665B3D472A10A7334DD /* Pods-Kripto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kripto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kripto/Pods-Kripto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D877B3023FE47F772D46974 /* Pods_Kripto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				4D8B57FA21961A440012276B /* Kripto */,
 				4D8B57F921961A440012276B /* Products */,
+				9C371172DDF3F49A140D9A67 /* Pods */,
+				E960EFA3BD1712F307E52C40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,57 @@
 		4D8B57FA21961A440012276B /* Kripto */ = {
 			isa = PBXGroup;
 			children = (
+				4D8B580D21961AA20012276B /* Model */,
+				4D8B580E21961AAF0012276B /* View */,
 				4D8B57FB21961A440012276B /* AppDelegate.swift */,
-				4D8B57FD21961A440012276B /* ViewController.swift */,
-				4D8B57FF21961A440012276B /* Main.storyboard */,
-				4D8B580221961A460012276B /* Assets.xcassets */,
-				4D8B580421961A460012276B /* LaunchScreen.storyboard */,
-				4D8B580721961A460012276B /* Info.plist */,
+				4D88FEEF2219738200B229DA /* ViewController.swift */,
+				4D88FEF12219739000B229DA /* PopupViewController.swift */,
+				4D00334621AF3E890015D3DE /* PopOverViewController.swift */,
+				4D88FF05221974D200B229DA /* SBCardPopupViewController.swift */,
+				4D3983A22219773C003BAC4A /* Main.storyboard */,
+				4D88FEF5221973AF00B229DA /* Assets.xcassets */,
+				4D88FEF7221973BB00B229DA /* Info.plist */,
+				4D31CD58221A11FE0043283A /* GoogleService-Info.plist */,
+				4D3983A422197FF2003BAC4A /* Launch Screen.storyboard */,
 			);
 			path = Kripto;
+			sourceTree = "<group>";
+		};
+		4D8B580D21961AA20012276B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D88FEFB221973F300B229DA /* CoinModel.swift */,
+				4D88FEFD221973FF00B229DA /* CurrencyModel.swift */,
+				4D88FEF9221973E600B229DA /* ChangeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D8B580E21961AAF0012276B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D88FF012219744400B229DA /* CoinTableViewCell.swift */,
+				4D88FEFF2219740C00B229DA /* CurrencyTableViewCell.swift */,
+				4D88FF032219745300B229DA /* DetailTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C371172DDF3F49A140D9A67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1BE7665B3D472A10A7334DD /* Pods-Kripto.debug.xcconfig */,
+				362BECD2265A686224D42BA6 /* Pods-Kripto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E960EFA3BD1712F307E52C40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E86EEA2D5025C0EC55FCE6A /* Pods_Kripto.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D8B580A21961A460012276B /* Build configuration list for PBXNativeTarget "Kripto" */;
 			buildPhases = (
+				9461DC49354E46A15C577F8B /* [CP] Check Pods Manifest.lock */,
 				4D8B57F421961A440012276B /* Sources */,
 				4D8B57F521961A440012276B /* Frameworks */,
 				4D8B57F621961A440012276B /* Resources */,
+				74A219C71A0091B9929F4D10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,7 +163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Nenad Savic";
 				TargetAttributes = {
 					4D8B57F721961A440012276B = {
@@ -122,44 +194,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8B580621961A460012276B /* LaunchScreen.storyboard in Resources */,
-				4D8B580321961A460012276B /* Assets.xcassets in Resources */,
-				4D8B580121961A440012276B /* Main.storyboard in Resources */,
+				4D3983A32219773D003BAC4A /* Main.storyboard in Resources */,
+				4D31CD59221A11FE0043283A /* GoogleService-Info.plist in Resources */,
+				4D3983A522197FF2003BAC4A /* Launch Screen.storyboard in Resources */,
+				4D88FEF6221973AF00B229DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74A219C71A0091B9929F4D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kripto/Pods-Kripto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kripto/Pods-Kripto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9461DC49354E46A15C577F8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kripto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D8B57F421961A440012276B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8B57FE21961A440012276B /* ViewController.swift in Sources */,
+				4D88FF042219745300B229DA /* DetailTableViewController.swift in Sources */,
+				4D88FF002219740C00B229DA /* CurrencyTableViewCell.swift in Sources */,
+				4D88FEF02219738200B229DA /* ViewController.swift in Sources */,
+				4D88FEFA221973E600B229DA /* ChangeModel.swift in Sources */,
+				4D88FF06221974D200B229DA /* SBCardPopupViewController.swift in Sources */,
+				4D00334721AF3E890015D3DE /* PopOverViewController.swift in Sources */,
+				4D88FF022219744400B229DA /* CoinTableViewCell.swift in Sources */,
+				4D88FEFE221973FF00B229DA /* CurrencyModel.swift in Sources */,
+				4D88FEFC221973F300B229DA /* CoinModel.swift in Sources */,
 				4D8B57FC21961A440012276B /* AppDelegate.swift in Sources */,
+				4D88FEF22219739000B229DA /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4D8B57FF21961A440012276B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8B580021961A440012276B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4D8B580421961A460012276B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8B580521961A460012276B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4D8B580821961A460012276B /* Debug */ = {
@@ -280,6 +390,7 @@
 		};
 		4D8B580B21961A460012276B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BE7665B3D472A10A7334DD /* Pods-Kripto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +409,7 @@
 		};
 		4D8B580C21961A460012276B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362BECD2265A686224D42BA6 /* Pods-Kripto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
