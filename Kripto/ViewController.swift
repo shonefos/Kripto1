@@ -123,11 +123,21 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let coindata: CoinModel
         coindata = coin[indexPath.row]
         //print(currencymodel.indexValue!)
+        if currencymodel.indexValue == nil {
+//            let alertController = UIAlertController(title: "Oops", message:
+//                "Feed could not be loaded!", preferredStyle: .alert)
+//            alertController.addAction(UIAlertAction(title: "OK", style: .default))
+//
+//            self.present(alertController, animated: true, completion: nil)
+            
+            self.tableView.reloadData()
+        } else {
+            let priceFloat = (coindata.price as NSString).floatValue * currencymodel.indexValue! // Ovde imam problem
+            let costString = String(format:"%.3f", priceFloat)
+            let percentFloat = (coindata.percent as NSString).floatValue
+            let percentString = String(format:"%.2f", percentFloat)
         
-        let priceFloat = (coindata.price as NSString).floatValue * currencymodel.indexValue! // Ovde imam problem
-        let costString = String(format:"%.3f", priceFloat)
-        let percentFloat = (coindata.percent as NSString).floatValue
-        let percentString = String(format:"%.2f", percentFloat)
+        
         
         if searching {
             let priceFloatsearch = (searchCoin[indexPath.row].price as NSString).floatValue
@@ -159,6 +169,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 cell.percentLabel.textColor = UIColor(hexString: "#19984A")
             }
             
+        }
         }
         
         return cell
@@ -275,6 +286,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let chncurr = "USD_\(cn)"
         
         currencymodel.indexValue = json[chncurr].floatValue
+        
+        if currencymodel.indexValue == nil {
+            let alertController = UIAlertController(title: "iOScreator", message:
+                "Hello, world!", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+            
+            self.present(alertController, animated: true, completion: nil)
+            
+            currencymodel.indexValue = 1
+        } else {
+            currencymodel.indexValue = json[chncurr].floatValue
+        }
         //print(currencymodel.indexValue!)
  
         
