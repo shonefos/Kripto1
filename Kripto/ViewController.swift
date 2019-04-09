@@ -124,6 +124,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         coindata = coin[indexPath.row]
         //print(currencymodel.indexValue!)
         if currencymodel.indexValue == nil {
+            
+// Showing alertview if found nil
+            
 //            let alertController = UIAlertController(title: "Oops", message:
 //                "Feed could not be loaded!", preferredStyle: .alert)
 //            alertController.addAction(UIAlertAction(title: "OK", style: .default))
@@ -131,6 +134,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //            self.present(alertController, animated: true, completion: nil)
             
             self.tableView.reloadData()
+            
+            
         } else {
             let priceFloat = (coindata.price as NSString).floatValue * currencymodel.indexValue! // Ovde imam problem
             let costString = String(format:"%.3f", priceFloat)
@@ -176,6 +181,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
     
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         searchCoin = coin.filter( {$0.name.lowercased().prefix(searchText.count) == searchText.lowercased()} )
@@ -203,11 +209,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let selectCoin = coin[indexPath.row]
-        
-        selectedCurrency = selectCoin
-        
-        performSegue(withIdentifier: "ShowCryptoDetail", sender: nil)
+        let Storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = Storyboard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        DVC.getDetailName = coin[indexPath.row].name
+        let formatedRoundingPrice = (coin[indexPath.row].price as NSString).floatValue * currencymodel.indexValue
+        let formatedPrice = String (format: "%.3f", formatedRoundingPrice)
+        DVC.getDetailPrice = formatedPrice
+        self.navigationController?.pushViewController(DVC, animated: true)
         
     }
     
@@ -244,6 +252,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                     self.tableView.reloadData()
+                        
                     }
                     
                     
@@ -273,6 +282,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
            
             DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                 self.tableView.reloadData()
+                
             }
             
             
@@ -338,4 +348,4 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
 }
 
-// srediti pucanje updatecuurencies
+

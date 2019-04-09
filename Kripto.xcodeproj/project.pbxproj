@@ -11,6 +11,7 @@
 		4D31CD59221A11FE0043283A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D31CD58221A11FE0043283A /* GoogleService-Info.plist */; };
 		4D3983A32219773D003BAC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3983A22219773C003BAC4A /* Main.storyboard */; };
 		4D3983A522197FF2003BAC4A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3983A422197FF2003BAC4A /* Launch Screen.storyboard */; };
+		4D4F91AA22500EA100D787E8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F91A922500EA000D787E8 /* DetailViewController.swift */; };
 		4D88FEF02219738200B229DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEEF2219738200B229DA /* ViewController.swift */; };
 		4D88FEF22219739000B229DA /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88FEF12219739000B229DA /* PopupViewController.swift */; };
 		4D88FEF6221973AF00B229DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88FEF5221973AF00B229DA /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		4D31CD58221A11FE0043283A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4D3983A22219773C003BAC4A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4D3983A422197FF2003BAC4A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4D4F91A922500EA000D787E8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4D88FEEF2219738200B229DA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D88FEF12219739000B229DA /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
 		4D88FEF5221973AF00B229DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				4D8B580E21961AAF0012276B /* View */,
 				4D8B57FB21961A440012276B /* AppDelegate.swift */,
 				4D88FEEF2219738200B229DA /* ViewController.swift */,
+				4D4F91A922500EA000D787E8 /* DetailViewController.swift */,
 				4D88FEF12219739000B229DA /* PopupViewController.swift */,
 				4D00334621AF3E890015D3DE /* PopOverViewController.swift */,
 				4D88FF05221974D200B229DA /* SBCardPopupViewController.swift */,
@@ -258,6 +261,7 @@
 				4D88FF042219745300B229DA /* DetailTableViewController.swift in Sources */,
 				4D88FF002219740C00B229DA /* CurrencyTableViewCell.swift in Sources */,
 				4D88FEF02219738200B229DA /* ViewController.swift in Sources */,
+				4D4F91AA22500EA100D787E8 /* DetailViewController.swift in Sources */,
 				4D88FEFA221973E600B229DA /* ChangeModel.swift in Sources */,
 				4D88FF06221974D200B229DA /* SBCardPopupViewController.swift in Sources */,
 				4D00334721AF3E890015D3DE /* PopOverViewController.swift in Sources */,

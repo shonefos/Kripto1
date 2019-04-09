@@ -33,8 +33,11 @@ class PopOverViewController: UIViewController, UITableViewDataSource, UITableVie
         ChangeModel.shared.currency = currencies[indexPath.row]
         
         let storyBoard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let newViewControler = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        let newViewControler = storyBoard.instantiateViewController(withIdentifier: "TabBarController") as! UITabBarController
         self.present(newViewControler,animated: true, completion: nil)
+        
+        
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
