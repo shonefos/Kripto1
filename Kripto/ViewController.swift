@@ -57,6 +57,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var currencymodel = CurrencyModel()
     var searching = false
     let myGroup = DispatchGroup()
+    let indicator:UIActivityIndicatorView = UIActivityIndicatorView()
     
 //    //FIrebase
 //    var ref: DatabaseReference?
@@ -65,10 +66,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.isHidden = true
+        indicator.center = self.view.center
+        indicator.hidesWhenStopped = true
+        indicator.style = UIActivityIndicatorView.Style.whiteLarge
+        self.view.addSubview(indicator)
+        indicator.startAnimating()
         tableView.dataSource = self
         searchBar.delegate = self
         currencyExchange()
         getCoinData()
+        
+   
         
         
 //        //Set the firebase reference
@@ -103,6 +112,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
    // TABLE VIEW
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
+        
         if searching {
             
             return searchCoin.count
@@ -132,6 +142,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //            alertController.addAction(UIAlertAction(title: "OK", style: .default))
 //
 //            self.present(alertController, animated: true, completion: nil)
+            
             
             self.tableView.reloadData()
             
@@ -176,9 +187,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
         }
         }
-        
+        indicator.stopAnimating()
+        self.tableView.isHidden = false
         return cell
-        
+       
     }
     
     

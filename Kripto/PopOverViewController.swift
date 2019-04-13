@@ -17,6 +17,7 @@ class PopOverViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet weak var tableViewPopUp: UITableView!
     
     var currencieschange = [ChangeModel]()
+    var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
     
     var currencies:[String] = ["EUR", "XAF", "RSD", "AUD", "PEN", "COP", "DKK", "GBP", "ZMW", "RUB", "HRK", "CHF", "ZAR"]
     
